@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Izzy.Core", "Izzy.Core\Izzy
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mobile", "Mobile", "{3CDB3EE3-5789-4875-9577-0EBE7E4A73E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Izzy.Mobile", "Izzy.Mobile\Izzy.Mobile\Izzy.Mobile.csproj", "{3D12B08B-5616-4DF5-8B43-33059B0D3A80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Izzy.Mobile", "Izzy.Mobile\Izzy.Mobile\Izzy.Mobile.csproj", "{3D12B08B-5616-4DF5-8B43-33059B0D3A80}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Izzy.Mobile.Android", "Izzy.Mobile\Izzy.Mobile.Android\Izzy.Mobile.Android.csproj", "{65483EB7-3CDA-4FC9-B794-C0B8380C222F}"
 EndProject

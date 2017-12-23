@@ -1,6 +1,5 @@
-﻿using Izzy.Mobile.ViewModels;
+﻿using Izzy.Mobile.Helpers;
 using Izzy.Mobile.Views;
-using Microsoft.Practices.Unity;
 using Prism.Unity;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -23,13 +22,17 @@ namespace Izzy.Mobile
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/MainPage");
+            if (Settings.Current.UserToken == null)
+                await NavigationService.NavigateAsync("NavigationPage/LoginPage");
+            else
+                await NavigationService.NavigateAsync("NavigationPage/MainPage");
         }
 
         protected override void RegisterTypes()
         {
             Container.RegisterTypeForNavigation<NavigationPage>();
             Container.RegisterTypeForNavigation<MainPage>();
+            Container.RegisterTypeForNavigation<LoginPage>();
         }
     }
 }
