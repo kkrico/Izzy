@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Izzy.Mobile.iOS", "Izzy.Mob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Izzy.Mobile.UWP", "Izzy.Mobile\Izzy.Mobile.UWP\Izzy.Mobile.UWP.csproj", "{CE3F33BB-F2B1-4555-99B5-DD6D91810FE9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{705B6B79-8C87-4DA6-A9F4-7283FCDE723C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
